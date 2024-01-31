@@ -18,7 +18,7 @@
     <% col_size = if Enum.empty?(other_explorers), do: 3, else: 2 %>
 
     <div class="row">
-      <div class="col-xs-12 col-lg-3" style="margin-left: 400px">
+      <div class="col-xs-12 col-lg-3">
         <p class="footer-info-text"><%= gettext("HTHScout is a tool for inspecting and analyzing the HTHvm blockchain. HTHScout is a blockchain explorer for the HelpTheHomeless Network.") %></p>
         <div class="footer-social-icons">
           <a href="<%= Application.get_env(:block_scout_web, :footer)[:github_link] %>" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Github") %>'>
